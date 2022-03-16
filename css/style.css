@@ -105,7 +105,8 @@ body{
 header{
     width: 100%;
     padding: 2% 8%;
-    margin-top: 2em;
+    margin-bottom: 2em;
+
     position: fixed;
     z-index: 1000;
     background-color: var(--firstColorP);
@@ -156,6 +157,7 @@ nav a:hover{
 /* --------------------------------------------------------- ending main sec */
 
 .main{
+
     width: 100%;
     min-height: 80vh;
     padding: 8%;
