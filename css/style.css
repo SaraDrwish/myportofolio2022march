@@ -1,0 +1,812 @@
+/* https://www.youtube.com/watch?v=cARGOrtiWt4 */
+
+/* @import google fonts Poppins */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins" , sans-serif;
+    background-color: rgba(247, 231, 233, 0.582);
+}
+
+:root{
+    --firstColorP:rgb(216, 187, 193) ;
+    --secondColorG:rgb(49, 48, 48) ;
+    --thierdColorPp: rgb(102, 55, 59);
+    --fourthColorPppp: rgb(205, 91, 101) ;
+    --fitholorPPppp: rgb(164, 102, 125);
+    --sixthColorp: rgb(161, 140, 169);
+    --seventhColorO: rgb(253, 203, 199);
+    --eightColor :rgb(213, 214, 197);
+    --tenColor:rgb(170, 129, 137) ;
+    --elevenColor:rgba(241, 227, 230, 0.952) ;
+    --towelvColor: rgba(235, 159, 165, 0.74) ;
+
+}
+
+
+/* ------------------------------------- webkit scrol----------------------------------------- */
+
+::-webkit-scrollbar{
+    width: 0.8em;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--firstColorP);
+    box-shadow: 0 0 .1em var(--secondColorG) inset;
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--tenColor);
+    border-radius: 0 1.2em 0 1.2em ;
+    -webkit-border-radius: 0 1.2em 0 1.2em ;
+    -moz-border-radius: 0 1.2em 0 1.2em ;
+    -ms-border-radius: 0 1.2em 0 1.2em ;
+    -o-border-radius: 0 1.2em 0 1.2em ;
+    /* width: 11px; */
+   
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:var(--fourthColorPppp);
+}
+
+/* -------------------------------------end webkit scrol----------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------------------start up */
+
+.up{
+      height:2.5em;
+      width: 2.5em;
+      position: fixed;
+      bottom: 14%;
+      right: -24%;
+      color: var(--seventhColorO);
+      background-color: var(--fitholorPPppp);
+      padding: 0.6em 0.8em;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius:1.2em ;
+      -webkit-border-radius:1.2em ;
+      -moz-border-radius:1.2em ;
+      -ms-border-radius:1.2em ;
+      -o-border-radius:1.2em ;
+      transition: all 1s ease;
+      cursor: pointer;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      z-index: 11;
+}
+.up span i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.up.show{
+      right: 2%;
+}
+
+/* -------------------------------------------------------------------------------end up  */
+
+
+
+
+
+/* ------------------------------------------------------ starting of header  */
+
+header{
+    width: 100%;
+    padding: 2% 8%;
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--firstColorP);
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 1px 9px 20px rgba(199, 199, 199, 0.897) ;
+}
+
+header .logo{
+    /* display: block; */
+    color: var(--secondColorG);
+    text-decoration: none;
+    /* padding: 22px 11px; */
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color:var(--secondColorG) ;
+    margin: 0 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+nav a:hover{
+    color: var(--fourthColorPppp);
+}
+
+/* --------------------------------------------------------- ending of header */
+
+
+
+
+
+/* --------------------------------------------------------- starting main sec */
+
+
+
+/* --------------------------------------------------------- ending main sec */
+
+.main{
+    width: 100%;
+    min-height: 80vh;
+    padding: 8%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--secondColorG);
+    position: relative;
+}
+
+.main .mainContent h3{
+          margin: 1.1em 0;
+          letter-spacing: 0.1em;
+          font-size: 1.3em;
+}
+
+.main .mainContent p{
+    font-size:3.2em;
+    color:var(--thierdColorPp);
+    border-right: 3px solid var(--fourthColorPppp);
+    /*width: fit-content;
+    */width:660px;
+    margin: 4px 0;
+    white-space: nowrap;
+    /*عشانالكلاممينزلشيفضلفينفسالسطر*/overflow: hidden;
+    animation: widthanmiControl  3s 2s steps(25) both , curserColor .8s infinite ;
+    -webkit-animation: widthanmiControl  3s 2s steps(25) both , curserColor .8s infinite ;
+}
+
+@keyframes widthanmiControl{
+    from{
+        width: 0;
+    }
+    to{
+        width: 660px;
+    }
+}
+
+@keyframes curserColor{
+    from{
+        border-right-color: var(--fourthColorPppp);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+
+.main .mainContent h3 span{
+/* color: var(--firstColorP); */
+color: var(--fourthColorPppp);
+display: inline-block;
+margin-top: .1em;
+font-size: 1.4em;
+}
+.main .mainContent h2{
+    margin: .9em 0;
+    font-size: 2.6em;
+    font-weight: 700;
+}
+.main .mainContent h4{
+    margin: 1em 0;
+    font-size: 1.2em;
+    color: var(--thierdColorPp);
+}
+.main .mainContent a  button{
+       margin: 1em 0;
+       display: inline-block;
+       background-color:var(--fourthColorPppp) ;
+       color:var(--thierdColorPp) ;
+       padding: .7em 1.1em;
+       font-size: 1.2em;
+       font-weight: 600;
+       border: .1em solid var(--fourthColorPppp);
+       border-radius: 1.2em;
+       -webkit-border-radius: 1.2em;
+       -moz-border-radius: 1.2em;
+       -ms-border-radius: 1.2em;
+       -o-border-radius: 1.2em;
+       cursor: pointer;
+       opacity: .8;
+       transition: all .4s ease;
+       -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+       -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+}
+
+.main .mainContent button:hover{
+    background-color:var(--firstColorP) ;
+    border: .1em solid var(--firstColorP);
+    opacity: 100%;
+    /* color:var(--thierdColorPp) ; */
+    color:var(--secondColorG) ;
+    transform:scale(1.1) ;
+    -webkit-transform:scale(1.1) ;
+    -moz-transform:scale(1.1) ;
+    -ms-transform:scale(1.1) ;
+    -o-transform:scale(1.1) ;
+}
+
+ .socialIcons{
+    /* text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+ .socialIcons a{
+    text-align: center;
+    display: inline-block;
+    margin: 1.2em 0;
+    color: var(--thierdColorPp); 
+    padding-left: 1.2em;
+    font-size: 1.3em;
+    transition:all .5s ease  ;
+    -webkit-transition:all .5s ease  ;
+    -moz-transition:all .5s ease  ;
+    -ms-transition:all .5s ease  ;
+    -o-transition:all .5s ease  ;
+}
+
+
+.socialIcons a:nth-child(1):hover{
+    color: rgb(131, 188, 206);
+}
+ .socialIcons a:nth-child(2):hover{
+    color:indianred;
+}
+ .socialIcons a:nth-child(3):hover{
+    color: var(--firstColorP);
+}
+
+
+/* .main .mainContent .socialIcons:hover a{
+    color: var(--firstColorP);
+} */
+
+.main .img{
+    width: 36%;
+    position: absolute;
+    right: 0%;
+    top: 14%;
+    /* background-attachment: fixed; */
+}
+
+
+/* ----------------------------------------------------------start servies */
+
+.servies{
+    width: 100%;
+    height: 88vh;
+    background-color: var(--tenColor);
+    /* background-image: url(../img/48e43d3c2f1ca978fba40aac24f91d3c.jpg); */
+    /* opacity: .6; */
+    /* order: 1; */
+    z-index: 1;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-attachment: fixed;
+    text-align: center;
+    padding: 3% 0;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.servies::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url(../img/48e43d3c2f1ca978fba40aac24f91d3c.jpg);
+    opacity: .5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+
+ .titleh2{
+    /* background-color: var(--firstColorP); */
+    position: relative;
+    /* background-color: var(--tenColor); */
+    background-color: var(--elevenColor);
+    width: 86%;
+    margin: 2%  auto 0 auto  ;
+    font-size: 2em;
+    color: var(--fourthColorPppp);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    padding: 2% 0 1% 0;
+    border-radius: 66px 9px 0 0 ;
+    -webkit-border-radius: 66px 9px 0 0 ;
+    -moz-border-radius: 66px 9px 0 0 ;
+    -ms-border-radius: 66px 9px 0 0 ;
+    -o-border-radius: 66px 9px 0 0 ;
+}
+
+.titleh2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-bottom: 3px solid var(--firstColorP);
+    width: 4%;
+}
+
+ .content{
+    width: 86%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* order: 2; */
+
+    margin:0 auto 2%  auto ;
+    background-color: var(--elevenColor);
+
+    /* background-color: var(--tenColor); */
+    /* z-index: 111; */
+    opacity: 100%;
+    color: black;
+    padding: 4% 1%;
+    border-radius: 0 0 66px 9px ;
+    -webkit-border-radius: 0 0 66px 9px ;
+    -moz-border-radius: 0 0 66px 9px ;
+    -ms-border-radius: 0 0 66px 9px ;
+    -o-border-radius: 0 0 66px 9px ;
+    -webkit-border-radius: 0 0 66px 9px ;
+/* 
+    position:absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50% , 50%);
+    -webkit-transform: translate(-50% , 50%);
+    -moz-transform: translate(-50% , 50%);
+    -ms-transform: translate(-50% , 50%);
+    -o-transform: translate(-50% , 50%); */
+   
+}
+
+
+.servies .content .card{
+    box-shadow: 0 0 11px 0 rgb(179, 179, 179);
+    padding: 2.8em .2em;
+    border-radius: 1.3em;
+    -webkit-border-radius: 1.3em;
+    -moz-border-radius: 1.3em;
+    -ms-border-radius: 1.3em;
+    -o-border-radius: 1.3em;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.servies .content .card:hover{
+    background-color: var(--sixthColorp);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.servies .content p{
+    margin: 1% 0;
+    padding: .4em 0;
+    /* color: var(--fourthColorPppp); */
+    color: var(--thierdColorPp);
+
+}
+
+.servies .content h4{
+    padding: .4em 0;
+    /* font-weight: 400; */
+    font-size: 1.2em;
+}
+
+.servies .content a {
+    display: inline-block;
+    font-size: 6em;
+    color: var(--fourthColorPppp);
+    margin: 0 0 1% 0;
+
+}
+
+/* ----------------------------------------------------------end serv */
+
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+  .count{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: var(--tenColor); */
+    background-color: var(--towelvColor);
+    padding: 2.2em;
+}
+.count .skils{
+    margin: 2.8em 0;
+    box-shadow: 1px 1px 11px 2px var(--sixthColorp);
+    padding: .6em;
+}
+.count .skils h2{
+color: var(--secondColorG);
+}
+.progress{
+position: relative;
+width: 22em;
+height: 1.2em;
+margin: 1em;
+background-color: var(--firstColorP);
+/* color:var(--fitholorPPppp); */
+}
+.progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--sixthColorp);
+   transition: width 0.3s linear ;
+    -webkit-transition: width 0.3s linear ;
+    -moz-transition: width 0.3s linear ;
+    -ms-transition: width 0.3s linear ;
+    -o-transition: width 0.3s linear ;
+}
+
+.count .titleh2{
+    margin-top: .1em ;
+    color:var(--fourthColorPppp);
+    background-color: unset;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------start proj */
+
+
+.projects .titleh2{
+margin-top: 1.4em;
+padding-top: 2em;
+}
+
+.projects_card{
+  margin: 1.4em 0;
+  min-height: 16em;
+  width:26%;
+  overflow: hidden;
+  /* background-color: var(--fourthColorPppp); */
+  background-color: var(--towelvColor);
+  border-radius:1.6em ;
+  -webkit-border-radius:1.6em ;
+  -moz-border-radius:1.6em ;
+  -ms-border-radius:1.6em ;
+  -o-border-radius:1.6em ;
+  border: 2px solid var(--sixthColorp);
+ }
+
+.projects_card .projects-img{
+ 
+ object-fit: contain;
+ opacity: .7;
+ transition:all .4s ease ;
+ 
+}
+
+.projects_card:hover .projects-img{
+    transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    opacity: 100%;
+}
+
+.projects_card .projects-img img{
+width: 100%;
+height: 290px;
+border-radius:1.6em ;
+  -webkit-border-radius:1.6em ;
+  -moz-border-radius:1.6em ;
+  -ms-border-radius:1.6em ;
+  -o-border-radius:1.6em ;
+}
+
+.projects_card .projects-info{
+padding: 1.4em;
+
+}
+
+.projects_card .projects-info h5{
+    color: var(--fitholorPPppp);
+     font-size: 1.2em;
+}
+
+.projects_card .projects-info strong{
+     display: flex;
+     justify-content: space-between;
+     margin: 1.5em 0;
+}
+
+.projects_card .projects-info strong span{
+    color: var(--seventhColorO);
+    font-size: .9em;
+}
+
+.projects_card .projects-info strong a{
+text-decoration: none;
+color: var(--sixthColorp);
+}
+
+/* ----------------------------------------------------------end proj */
+
+
+
+
+/* ----------------------------------------------------------start cv */
+
+.cv{
+   width: 100%;
+   height: 80vh;
+   background-color: var(--tenColor);
+   /*background-image: url(../img/68713e23-0a36-4a48-9878-3477907c4774.jpg);
+   */background-image: url(../img/530a5623144f2f892919344d20ad7b62.jpg);
+   opacity: .7;
+   /* z-index: -1; */
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   text-align: center;
+   padding: 3% 0;
+   overflow: hidden;
+   margin: auto;
+   position: relative;
+ 
+}
+
+.cv .titleh2{
+    padding-top: 6%;
+    font-weight: bolder;
+    background-color: unset;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    /* -o-border-radius: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform:translate(-50% , 50%) ; 
+    -webkit-transform:translate(-50% , 50%) ;
+    -moz-transform:translate(-50% , 50%) ;
+    -ms-transform:translate(-50% , 50%) ;
+    -o-transform:translate(-50% , 50%) ;
+    */
+    
+}
+
+.mycv button{
+    /* position: absolute;
+    top: 0;
+    right: 0; 
+    transform:translate(-50% , 50%) ;
+    -webkit-transform:translate(-50% , 50%) ;
+    -moz-transform:translate(-50% , 50%) ;
+    -ms-transform:translate(-50% , 50%) ;
+    -o-transform:translate(-50% , 50%) ;
+    */
+     font-weight: 700;
+    cursor: pointer;
+    margin: 3em auto;
+    padding: 1em 2em;
+    background-color: var(--fitholorPPppp);
+    color: var(--secondColorG);
+    font-size: 1.8em;
+    border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -ms-border-radius: 1.2em;
+    -o-border-radius: 1.2em;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    opacity: .8;
+
+}
+
+.mycv button:hover{
+ 
+    background-color: var(--secondColorG);
+    color: var(--fitholorPPppp);
+    opacity:.9;
+   
+}
+
+
+
+
+
+/* ----------------------------------------------------------end cv */
+
+
+
+
+
+/* ----------------------------------------------------------start contact */
+
+.contact{
+
+}
+
+.contact .content{
+    background-color: unset;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+}
+.contact .titleh2{
+    background-color: unset;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+}
+
+.contact .card{
+    margin:0.5em;
+    padding:1.4em  4.4em;
+    text-align: center;
+    box-shadow: 0 2px 13px rgba(128, 128, 128, 0.877);
+    border-radius: 1.4em;
+    cursor: pointer;
+    opacity: .7;
+    -webkit-border-radius: 1.4em;
+    -moz-border-radius: 1.4em;
+    -ms-border-radius: 1.4em;
+    -o-border-radius: 1.4em;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+.contact .card:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    opacity: 100%;
+}
+
+
+.contact .card a{
+font-size: 6em;
+display: inline-block;
+color: var(--tenColor);
+padding: .5em 0;
+}
+
+.contact .card h4{
+    padding: .5em 0;
+    font-size: 1em;
+    color: var(--thierdColorPp);
+}
+
+.contact .card p{
+    padding: .5em 0;
+    font-size: 1.3em;
+    color: var(--sixthColorp);
+
+}
+
+/* ----------------------------------------------------------end contact */
+
+
+
+
+
+/* ----------------------------------------------------------start footer */
+footer{
+    background-color: var(--firstColorP);
+    color: var(--secondColorG);
+    font-size: 1em;
+    padding: 1em 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 11px 1px 22px 11px lightgray;
+}
+
+
+footer p{
+    
+    width: 60%;
+    padding-left: .2em;
+}
+
+footer .socialIcons {
+    padding: unset;
+    margin: unset;
+    width: 10%;
+    color: unset;
+ }
+
+ footer .socialIcons a {
+    padding:0 .4em;
+    margin: 0 .2em;
+   
+ }
+
+
+ .socialIcons a:nth-child(3):hover {
+    
+    color: var(--tenColor);
+ }
+
+footer span{
+    color: var(--fourthColorPppp);
+}
+/* ----------------------------------------------------------end footer */
