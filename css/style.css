@@ -845,7 +845,6 @@ footer span{
   }
 
 
-
 /* -------------------------------- */
 
     header{ 
@@ -855,9 +854,7 @@ footer span{
         margin: 0 .4em;
         font-size: .7em;
         font-weight: 800;
-      }
-
-      
+      }    
 header .logo{
     font-size: 1.3em;
     /* font-weight: 700; */
@@ -867,7 +864,9 @@ header .logo{
 /* -------------------------------- */
     
 .main{
-     /* padding: 22% 11%; */
+     /* padding: 20% 10%; */
+     width: 100%;
+    min-height: 46vh;
 }
 .main .mainContent{
     width: 60%;
@@ -907,7 +906,22 @@ header .logo{
         font-size: 1em;
     }
     .main .img{
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: auto; */
+
+        /* display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+        grid: column 1px 3px;;
+        grid-row: 3;
+        grid-auto-columns: auto; */
+        
         width: 39%; 
+        min-height: 20vh;
         right: 0%;
         top: 22%;
     }   
@@ -928,11 +942,10 @@ header .logo{
 
  
     .titleh2{
-        width: 86%;
+        /* width: 86%; */
         margin: 8%  auto 0% auto  ;
         font-size: 1.5em;
         padding: 2% 0 .2% 0;    
-
     }
 .titleh2::after{
    content: "";
@@ -957,7 +970,7 @@ header .logo{
     }
     .servies{  
         padding: 2% 0;   
-        height: 99vh;
+        height: 80vh;
         /* min-height: 70vh; */
         /* min-height: unset; */
         /* margin: 2% auto; */
@@ -978,12 +991,10 @@ header .logo{
         font-size: 1em;
     }
     
-
-
 /* -------------------------------- */
 
 .count{
-    min-height: 70vh;
+    min-height: 50vh;
     padding: 2%;
 }
 .count .skils{
@@ -1003,12 +1014,10 @@ font-size: 0.9em;
 padding: 0 4%;
   }
 
-
 /* -------------------------------- */
 
 .projects .content{
     padding: 3%;
-  
 }
    .projects .titleh2{
     margin-top: 1em;
@@ -1031,6 +1040,7 @@ padding: 0 4%;
     }  
     .projects_card .projects-info h5{
           font-size: .8em;
+          margin-top: .6em;
     }
     .projects_card .projects-info strong{ 
          margin: 1.4em 0;
@@ -1040,18 +1050,16 @@ padding: 0 4%;
         font-size: .6em;
         box-shadow: 0px 0px 8px 1px rgb(221, 182, 186);
         padding: 0 2%;
-
     }   
     .projects_card .projects-info strong a{
         font-size: .6em; 
         text-align: center;
     }
 
-
 /* -------------------------------- */
 
 .cv{
-    height: 60vh;
+    height: 50vh;
     padding: 3% 0; 
  }
 
@@ -1102,7 +1110,6 @@ padding: 0 4%;
 
 
 
-
 }
 
 
@@ -1139,8 +1146,6 @@ body{
         margin: 1em 0;
         font-size: .8em;
     }
-
-
 
 
 
