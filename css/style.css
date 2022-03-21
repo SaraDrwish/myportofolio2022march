@@ -720,7 +720,7 @@ color: var(--sixthColorp);
 }
 
 .contact .card{
-    width: 24em;
+    width: 22em;
     /* ----- */
     margin:0.4em;
     padding:1.3em  4.3em;
@@ -764,8 +764,9 @@ padding: .5em 0;
 
 .contact .card p{
     padding: .5em 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: var(--sixthColorp);
+    text-align: center;
 }
 
 /* ----------------------------------------------------------end contact */
@@ -790,7 +791,7 @@ footer{
 footer p{
     
     /* width: 40%; */
-    padding-left: .2em;
+    padding-left: .11em;
 }
 
 footer .socialIcons {
@@ -804,7 +805,7 @@ footer .socialIcons {
  }
 
  footer .socialIcons a {
-    padding:.3rem .6em;
+    padding:.3rem .4em;
     margin: 0 .2em;
  }
 
@@ -831,8 +832,21 @@ footer span{
 =======================================             START MEDIA            =============================================
 ======================================================================================================================== */
 
-@media (max-width:1023px){
+
+@media (max-width:1025px){
     
+
+    .up{
+        height:2em;
+        width: 2em;
+        bottom: 6%;
+        padding: 0.4em 0.6em;
+        font-size: 1em;
+  }
+
+
+
+/* -------------------------------- */
 
     header{ 
         padding:2% 6%;   
@@ -910,7 +924,7 @@ header .logo{
     }
 }
 
-/* ------------------------------ */
+/* -------------------------------- */
 
  
     .titleh2{
@@ -924,7 +938,7 @@ header .logo{
    content: "";
    position: absolute;
    bottom: -19%;
-    width: 10%;
+    width: 8%;
     /* margin: 3% 0 3% 0; */
     /* top:55% ; */
     margin: 1% 0;
@@ -936,15 +950,21 @@ header .logo{
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
+                /* flex-direction: column; */
         flex-wrap: wrap;
         margin:0 auto 4%  auto ;
         padding: 2% 1%;
     }
     .servies{  
         padding: 2% 0;   
-        min-height: 220vh;
+        height: 99vh;
+        /* min-height: 70vh; */
         /* min-height: unset; */
+        /* margin: 2% auto; */
      }
+     /* .servies .content{
+         margin: 0% 0 2% 0;
+     } */
     .servies .content .card{
         padding: 2em .4em; 
         margin: 3% 0; 
@@ -960,10 +980,10 @@ header .logo{
     
 
 
-/* --------------------------- */
+/* -------------------------------- */
 
 .count{
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 2%;
 }
 .count .skils{
@@ -984,26 +1004,24 @@ padding: 0 4%;
   }
 
 
-/* ----------------------------- */
+/* -------------------------------- */
+
 .projects .content{
     padding: 3%;
+  
 }
-
    .projects .titleh2{
     margin-top: 1em;
     padding-top: 1em;
     }
     .projects_card{
       margin: 1em 0;
-      min-height: 12em;
-      width:49%;
+      min-height: 10em;
+      width:48%;
      }
     .projects_card .projects-img{
 
-    }
-    .projects_card:hover .projects-img{
-       
-    }  
+    } 
     .projects_card .projects-img img{
     width: 100%;
     height: 200px;
@@ -1030,8 +1048,7 @@ padding: 0 4%;
     }
 
 
-
-/* ---------------------------------------------- */
+/* -------------------------------- */
 
 .cv{
     height: 60vh;
@@ -1050,23 +1067,78 @@ padding: 0 4%;
    -o-border-radius: 1.2rem;
 }
 
- /* ---------------------- */
+/* -------------------------------- */
 
-
+ .contact .content{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: nowrap;
+ }
  .contact .titleh2{
      margin: 3% auto;
  }
  .contact .card{
-    width: 20em;
+    width: 11em;
     margin:1em;
-    padding:1em  4em;
+    padding:1em  3em;
     text-align: center;
     border-radius: 1.4em;
+ }
+ .contact .card a{
+    font-size: 3.3em;
+    padding: .2em 0;
+ }
+ .contact .card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-size: .9em;
+     /* text-align: center; */
  }
 
 
 
+
+
+}
+
+
+/* end 1023 */
 /* ----------------------------------------------------------- */
+
+
+@media (max-width:642px){
+
+
+body{
+    font-size: 12px;
+}
+.content{
+    font-size: .6em;
+}
+.main .mainContent p {
+    font-size: 1.1em;
+    margin: 1.5em  0 1.1em 0 ; 
+}
+.main .mainContent h3{
+    margin:.4em 0;
+    font-size: 1.2em;
+}
+.main .mainContent h3 span{
+    padding-top: .2em;
+    font-size:1.3em;
+    }
+    .main .mainContent h2{
+        margin: .2em 0;
+        font-size: 1.1em;
+    }
+    .main .mainContent h4{
+        margin: 1em 0;
+        font-size: .8em;
+    }
 
 
 
@@ -1077,8 +1149,19 @@ padding: 0 4%;
 }
 
 
-/* end 1023 */
+
+/* ----------------------------------end 641px----------------------------------------- */
+
+@media (max-width:300px) {
+    
+body{
+    font-size: .8em;
+}
 
 
 
+}
 
+
+
+/* ----------------------------------end 300----------------------------------------- */
