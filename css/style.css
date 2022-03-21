@@ -867,9 +867,10 @@ header .logo{
      /* padding: 20% 10%; */
      width: 100%;
     min-height: 46vh;
+    
 }
 .main .mainContent{
-    width: 60%;
+    width: 58%;
     line-height: 1.4em;
 }
 .main .mainContent p {
@@ -884,7 +885,7 @@ header .logo{
 .main .mainContent h3 span{
     /* margin: 0.3em 0em; */
     padding-top: .2em;
-    font-size:1.1em;
+    font-size:1.2em;
     }
     .main .mainContent h2{
         margin: .2em 0;
@@ -899,7 +900,7 @@ header .logo{
            padding: 0.81em;
            font-size: .8em;
            color:var(--eightColor);
-            }   
+     }   
      .socialIcons a{
         margin: 1em 0;
         padding-left: 1em;
@@ -920,10 +921,19 @@ header .logo{
         grid-row: 3;
         grid-auto-columns: auto; */
         
-        width: 39%; 
+        /* width: 39%; 
         min-height: 20vh;
         right: 0%;
-        top: 22%;
+        top: 22%; */
+
+        width: 39%;
+        /* min-height: 20vh; */
+        right: 25%;
+        top: 50%;
+        transform: translate(50%, -50%);
+
+
+
     }   
     .main .img img{
         width: 100%; 
@@ -990,7 +1000,8 @@ header .logo{
         padding: .2em 0;
         font-size: 1em;
     }
-    
+
+
 /* -------------------------------- */
 
 .count{
@@ -1132,7 +1143,7 @@ body{
 }
 .main .mainContent h3{
     margin:.4em 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .main .mainContent h3 span{
     padding-top: .2em;
@@ -1146,9 +1157,27 @@ body{
         margin: 1em 0;
         font-size: .8em;
     }
+/* ----------------------------- */
+    .servies{
+        min-height:80vh;
 
+    }
 
-
+    .servies .content{
+        transform: translate(1% , 20%);
+        -webkit-transform: translate(1% , 20%);
+        -moz-transform: translate(1% , 20%);
+        -ms-transform: translate(1% , 20%);
+        -o-transform: translate(1% , 20%);
+}
+    .servies .titleh2{
+        transform: translate(1% , 179%)  ;
+        -webkit-transform: translate(1% , 179%)  ;
+        -moz-transform: translate(1% , 179%)  ;
+        -ms-transform: translate(1% , 179%)  ;
+        -o-transform: translate(1% , 179%)  ;
+}
+    
 
 
 }
