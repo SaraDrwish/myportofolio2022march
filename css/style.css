@@ -22,10 +22,10 @@ body{
     --fitholorPPppp: rgb(164, 102, 125);
     --sixthColorp: rgb(161, 140, 169);
     --seventhColorO: rgb(253, 203, 199);
-    --eightColor :rgb(213, 214, 197);
+    --eightColor :rgb(61, 39, 39);
     --tenColor:rgb(170, 129, 137) ;
     --elevenColor:rgba(241, 227, 230, 0.952) ;
-    --towelvColor: rgba(235, 159, 165, 0.74) ;
+    --towelvColor: rgba(250, 186, 191, 0.692) ;
 
 }
 
@@ -280,7 +280,6 @@ font-size: 1.4em;
     -o-transition:all .5s ease  ;
 }
 
-
 .socialIcons a:nth-child(1):hover{
     color: rgb(131, 188, 206);
 }
@@ -290,7 +289,6 @@ font-size: 1.4em;
  .socialIcons a:nth-child(3):hover{
     color: var(--firstColorP);
 }
-
 
 /* .main .mainContent .socialIcons:hover a{
     color: var(--firstColorP);
@@ -342,7 +340,6 @@ font-size: 1.4em;
     background-attachment: fixed;  
 }
 
-
  .titleh2{
     /* background-color: var(--firstColorP); */
     position: relative;
@@ -375,18 +372,14 @@ font-size: 1.4em;
 
  .content{
     width: 86%;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-
     /* order: 2; */
-
     margin:0 auto 2%  auto ;
     background-color: var(--elevenColor);
-
     /* background-color: var(--tenColor); */
     /* z-index: 111; */
     opacity: 100%;
@@ -406,7 +399,8 @@ font-size: 1.4em;
     -webkit-transform: translate(-50% , 50%);
     -moz-transform: translate(-50% , 50%);
     -ms-transform: translate(-50% , 50%);
-    -o-transform: translate(-50% , 50%); */
+    -o-transform: translate(-50% , 50%)
+     */
    
 }
 
@@ -569,7 +563,7 @@ padding-top: 2em;
 
 .projects_card .projects-img img{
 width: 100%;
-height: 290px;
+height: 300px;
 border-radius:1.6em ;
   -webkit-border-radius:1.6em ;
   -moz-border-radius:1.6em ;
@@ -579,7 +573,6 @@ border-radius:1.6em ;
 
 .projects_card .projects-info{
 padding: 1.4em;
-
 
 }
 
@@ -595,7 +588,9 @@ padding: 1.4em;
 }
 
 .projects_card .projects-info strong span{
-    color: var(--seventhColorO);
+    /* color: var(--seventhColorO); */
+    color: var(--eightColor);
+
     font-size: .9em;
 }
 
@@ -667,7 +662,8 @@ color: var(--sixthColorp);
     margin: 3em auto;
     padding: 1em 2em;
     background-color: var(--fitholorPPppp);
-    color: var(--secondColorG);
+    /* color: var(--secondColorG); */
+    color: var(--elevenColor);
     font-size: 1.8em;
     border-radius: 1.2em;
     -webkit-border-radius: 1.2em;
@@ -680,15 +676,12 @@ color: var(--sixthColorp);
     -ms-transition: all .4s ease-out;
     -o-transition: all .4s ease-out;
     opacity: .8;
-
 }
 
 .mycv button:hover{
- 
     background-color: var(--secondColorG);
     color: var(--fitholorPPppp);
     opacity:.9;
-   
 }
 
 
@@ -704,16 +697,18 @@ color: var(--sixthColorp);
 /* ----------------------------------------------------------start contact */
 
 .contact{
-
+  
 }
 
 .contact .content{
+    /* width: 100%; */
     background-color: unset;
     border-radius: unset;
     -webkit-border-radius: unset;
     -moz-border-radius: unset;
     -ms-border-radius: unset;
-    -o-border-radius: unset;
+    -o-border-radius: unset;   
+  
 }
 .contact .titleh2{
     background-color: unset;
@@ -725,8 +720,10 @@ color: var(--sixthColorp);
 }
 
 .contact .card{
-    margin:0.5em;
-    padding:1.4em  4.4em;
+    width: 24em;
+    /* ----- */
+    margin:0.4em;
+    padding:1.3em  4.3em;
     text-align: center;
     box-shadow: 0 2px 13px rgba(128, 128, 128, 0.877);
     border-radius: 1.4em;
@@ -752,7 +749,6 @@ color: var(--sixthColorp);
     opacity: 100%;
 }
 
-
 .contact .card a{
 font-size: 6em;
 display: inline-block;
@@ -770,7 +766,6 @@ padding: .5em 0;
     padding: .5em 0;
     font-size: 1.3em;
     color: var(--sixthColorp);
-
 }
 
 /* ----------------------------------------------------------end contact */
@@ -794,21 +789,23 @@ footer{
 
 footer p{
     
-    width: 60%;
+    /* width: 40%; */
     padding-left: .2em;
 }
 
 footer .socialIcons {
     padding: unset;
     margin: unset;
-    width: 10%;
+    /* width: 10%; */
     color: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
  }
 
  footer .socialIcons a {
-    padding:0 .4em;
+    padding:.3rem .6em;
     margin: 0 .2em;
-   
  }
 
 
@@ -821,3 +818,267 @@ footer span{
     color: var(--fourthColorPppp);
 }
 /* ----------------------------------------------------------end footer */
+
+
+
+
+
+
+
+
+
+/* =====================================================================================================================
+=======================================             START MEDIA            =============================================
+======================================================================================================================== */
+
+@media (max-width:1023px){
+    
+
+    header{ 
+        padding:2% 6%;   
+    }
+    nav a {
+        margin: 0 .4em;
+        font-size: .7em;
+        font-weight: 800;
+      }
+
+      
+header .logo{
+    font-size: 1.3em;
+    /* font-weight: 700; */
+    color: var(--fourthColorPppp);
+}
+
+/* -------------------------------- */
+    
+.main{
+     /* padding: 22% 11%; */
+}
+.main .mainContent{
+    width: 60%;
+    line-height: 1.4em;
+}
+.main .mainContent p {
+    font-size: 1.1em;
+    width:100%;
+    margin: 1.5em  0 1.1em 0 ; 
+}
+.main .mainContent h3{
+    margin:.4em 0;
+    font-size: 1em;
+}
+.main .mainContent h3 span{
+    /* margin: 0.3em 0em; */
+    padding-top: .2em;
+    font-size:1.1em;
+    }
+    .main .mainContent h2{
+        margin: .2em 0;
+        font-size: 1em;
+    }
+    .main .mainContent h4{
+        margin: 1em 0;
+        font-size: .7em;
+    }
+    .main .mainContent a  button{
+           margin: 1em 0;
+           padding: 0.81em;
+           font-size: .8em;
+           color:var(--eightColor);
+            }   
+     .socialIcons a{
+        margin: 1em 0;
+        padding-left: 1em;
+        font-size: 1em;
+    }
+    .main .img{
+        width: 39%; 
+        right: 0%;
+        top: 22%;
+    }   
+    .main .img img{
+        width: 100%; 
+    } 
+@keyframes widthanmiControl{
+    from{
+        width: 0;
+    }
+    to{
+        /* width: 13em; */
+        width: 100%;
+    }
+}
+
+/* ------------------------------ */
+
+ 
+    .titleh2{
+        width: 86%;
+        margin: 8%  auto 0% auto  ;
+        font-size: 1.5em;
+        padding: 2% 0 .2% 0;    
+
+    }
+.titleh2::after{
+   content: "";
+   position: absolute;
+   bottom: -19%;
+    width: 10%;
+    /* margin: 3% 0 3% 0; */
+    /* top:55% ; */
+    margin: 1% 0;
+    padding: 2% 0;
+}
+    .content{
+        width: 86%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0 auto 4%  auto ;
+        padding: 2% 1%;
+    }
+    .servies{  
+        padding: 2% 0;   
+        min-height: 220vh;
+        /* min-height: unset; */
+     }
+    .servies .content .card{
+        padding: 2em .4em; 
+        margin: 3% 0; 
+    }  
+    .servies .content p{
+        margin: 1% 0;
+        padding: .2em 0;
+    }   
+  .servies .content h4{
+        padding: .2em 0;
+        font-size: 1em;
+    }
+    
+
+
+/* --------------------------- */
+
+.count{
+    min-height: 50vh;
+    padding: 2%;
+}
+.count .skils{
+    margin:1% 0 8% 0;
+    padding: 2% 1%;
+}
+.progress{
+width: 16em;
+height: .6em;
+margin: 1em;
+}
+.count .titleh2{
+margin: 7% 1% ;
+}
+.count .skils h2{
+font-size: 0.9em;  
+padding: 0 4%;
+  }
+
+
+/* ----------------------------- */
+.projects .content{
+    padding: 3%;
+}
+
+   .projects .titleh2{
+    margin-top: 1em;
+    padding-top: 1em;
+    }
+    .projects_card{
+      margin: 1em 0;
+      min-height: 12em;
+      width:49%;
+     }
+    .projects_card .projects-img{
+
+    }
+    .projects_card:hover .projects-img{
+       
+    }  
+    .projects_card .projects-img img{
+    width: 100%;
+    height: 200px;
+    }
+    .projects_card .projects-info{
+    padding: 1em;
+    }  
+    .projects_card .projects-info h5{
+          font-size: .8em;
+    }
+    .projects_card .projects-info strong{ 
+         margin: 1.4em 0;
+         padding: 1%;
+        }  
+    .projects_card .projects-info strong span{    
+        font-size: .6em;
+        box-shadow: 0px 0px 8px 1px rgb(221, 182, 186);
+        padding: 0 2%;
+
+    }   
+    .projects_card .projects-info strong a{
+        font-size: .6em; 
+        text-align: center;
+    }
+
+
+
+/* ---------------------------------------------- */
+
+.cv{
+    height: 60vh;
+    padding: 3% 0; 
+ }
+
+ .cv .titleh2{
+   width: 25%;
+   text-align: center;
+   padding: 1%;
+   background-color: rgba(253, 203, 210, 0.897);
+   border-radius: 1.2rem;
+   -webkit-border-radius: 1.2rem;
+   -moz-border-radius: 1.2rem;
+   -ms-border-radius: 1.2rem;
+   -o-border-radius: 1.2rem;
+}
+
+ /* ---------------------- */
+
+
+ .contact .titleh2{
+     margin: 3% auto;
+ }
+ .contact .card{
+    width: 20em;
+    margin:1em;
+    padding:1em  4em;
+    text-align: center;
+    border-radius: 1.4em;
+ }
+
+
+
+/* ----------------------------------------------------------- */
+
+
+
+
+
+
+
+}
+
+
+/* end 1023 */
+
+
+
+
