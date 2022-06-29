@@ -41,3 +41,23 @@ span.onclick = function(){
    });
 
 };
+
+// ---------------------------------------------------------
+
+// -----------------start loadig ---------------------------
+
+let filterBtn = document.querySelectorAll(".filterBtn li");
+let items = document.querySelectorAll(".containerItems .items");
+
+function load(){
+    let loader = document.querySelector(".laoder");
+    loader.classList.add("fadOut");
+}
+
+function fade(){
+    setInterval(load , 3000);
+}
+fade()
+
+
+// -----------------------end loading ----------------------
