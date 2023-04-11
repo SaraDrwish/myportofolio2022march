@@ -19,7 +19,8 @@ body{
     --firstColorP:#c3d1ce ;
     --secondColorG:rgb(49, 48, 48) ;
     --thierdColorPp: rgb(102, 55, 59);
-    --fourthColorPppp: rgb(205, 91, 101) ;
+/*     --fourthColorPppp: rgb(205, 91, 101) ; #6E6062 */
+    --fourthColorPppp: #6E6062;
     --fitholorPPppp: rgb(164, 102, 125);
     --sixthColorp: rgb(161, 140, 169);
     --seventhColorO: rgb(253, 203, 199);
