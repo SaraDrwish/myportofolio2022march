@@ -641,29 +641,11 @@ color: var(--sixthColorp);
     -webkit-border-radius: unset;
     -moz-border-radius: unset;
     -ms-border-radius: unset;
-    /* -o-border-radius: unset;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform:translate(-50% , 50%) ; 
-    -webkit-transform:translate(-50% , 50%) ;
-    -moz-transform:translate(-50% , 50%) ;
-    -ms-transform:translate(-50% , 50%) ;
-    -o-transform:translate(-50% , 50%) ;
-    */
-    
+
 }
 
 .mycv button{
-    /* position: absolute;
-    top: 0;
-    right: 0; 
-    transform:translate(-50% , 50%) ;
-    -webkit-transform:translate(-50% , 50%) ;
-    -moz-transform:translate(-50% , 50%) ;
-    -ms-transform:translate(-50% , 50%) ;
-    -o-transform:translate(-50% , 50%) ;
-    */
+
      font-weight: 700;
     cursor: pointer;
     margin: 3em 1em;
@@ -706,10 +688,6 @@ color: var(--sixthColorp);
 
 /* ----------------------------------------------------------start contact */
 
-.contact{
-  
-}
-
 .contact .content{
     /* width: 100%; */
     background-color: unset;
@@ -733,7 +711,7 @@ color: var(--sixthColorp);
     width: 22em;
     /* ----- */
     margin:0.4em;
-    padding:1.3em  4.3em;
+    padding:3em 4em;
     text-align: center;
     box-shadow: 0 2px 13px rgba(128, 128, 128, 0.877);
     border-radius: 1.4em;
@@ -829,9 +807,6 @@ footer span{
     color: var(--fourthColorPppp);
 }
 /* ----------------------------------------------------------end footer */
-
-
-
 
 
 
