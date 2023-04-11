@@ -1062,13 +1062,14 @@ padding: 0 4%;
  .cv .titleh2{
    width: 25%;
    text-align: center;
-   padding: 1%;
+   padding: 1.5%;
    background-color: rgba(253, 203, 210, 0.897);
    border-radius: 1.2rem;
    -webkit-border-radius: 1.2rem;
    -moz-border-radius: 1.2rem;
    -ms-border-radius: 1.2rem;
    -o-border-radius: 1.2rem;
+    color: var(--sixthColorp);
 }
 
 /* -------------------------------- */
@@ -1119,6 +1120,7 @@ padding: 0 4%;
 
 body{
     font-size: 12px;
+     border-width: 1px ;
 }
 .content{
     font-size: .6em;
