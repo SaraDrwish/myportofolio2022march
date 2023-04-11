@@ -31,7 +31,8 @@ body{
     --elevenColor:rgba(241, 227, 230, 0.952) ;
 /*     --towelvColor: rgba(250, 186, 191, 0.692) #ccc8c9 ; */
 /*     --towelvColor:#B7B0B1 #E6D4D7 ; */
-    --towelvColor:#E6D4D7 ;
+/*     --towelvColor:#E6D4D7 #fff8f8 ; */
+    --towelvColor:#fff8f8 ;
 
 }
 
