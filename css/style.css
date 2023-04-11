@@ -374,7 +374,7 @@ font-size: 1.4em;
     position: absolute;
     bottom: 0;
     border-bottom: 3px solid var(--firstColorP);
-    width: 4%;
+    width: 2em;
 }
 
  .content{
@@ -641,7 +641,6 @@ color: var(--sixthColorp);
     -webkit-border-radius: unset;
     -moz-border-radius: unset;
     -ms-border-radius: unset;
-
 }
 
 .mycv button{
@@ -818,7 +817,8 @@ footer span{
 ======================================================================================================================== */
 
 
-@media (max-width:1025px){
+/* @media (max-width:992px){ */
+@media (min-width:992px){
     
 
     .up{
@@ -1113,7 +1113,8 @@ padding: 0 4%;
 /* ----------------------------------------------------------- */
 
 
-@media (max-width:676px){
+/* @media (max-width:676px){ */
+@media (min-width:768px){
 
 
 body{
@@ -1171,10 +1172,11 @@ body{
 
 /* ----------------------------------end 641px----------------------------------------- */
 
-@media (max-width:400px) {
+@media (min-width:576px) {
     
 body{
     font-size: .8em;
+     border-width: 1px ;
 }
 
 
