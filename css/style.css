@@ -15,7 +15,8 @@ body{
 }
 
 :root{
-    --firstColorP:rgb(216, 187, 193) ;
+/*     --firstColorP:rgb(216, 187, 193) #c3d1ce ; */
+    --firstColorP:#c3d1ce ;
     --secondColorG:rgb(49, 48, 48) ;
     --thierdColorPp: rgb(102, 55, 59);
     --fourthColorPppp: rgb(205, 91, 101) ;
