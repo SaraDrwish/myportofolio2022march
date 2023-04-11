@@ -27,7 +27,8 @@ body{
     --eightColor :rgb(61, 39, 39);
     --tenColor:rgb(170, 129, 137) ;
     --elevenColor:rgba(241, 227, 230, 0.952) ;
-    --towelvColor: rgba(250, 186, 191, 0.692) ;
+/*     --towelvColor: rgba(250, 186, 191, 0.692) #ccc8c9 ; */
+    --towelvColor:#ccc8c9 ;
 
 }
 
