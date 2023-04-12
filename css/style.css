@@ -339,7 +339,8 @@ font-size: 1.4em;
     left: 0;
     right: 0;
     z-index: -1;
-    background-image: url(../img/48e43d3c2f1ca978fba40aac24f91d3c.jpg);
+/*     background-image: url(../img/48e43d3c2f1ca978fba40aac24f91d3c.jpg); */
+    background-image: url(../img/sw.jpg);
     opacity: .5;
     background-position: center;
     background-repeat: no-repeat;
