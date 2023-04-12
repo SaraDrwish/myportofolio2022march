@@ -10,7 +10,13 @@
 }
 
 body{
-    font-family: "Poppins" , sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
     background-color: rgba(247, 231, 233, 0.582);
 }
 
