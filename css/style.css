@@ -618,7 +618,9 @@ color: var(--sixthColorp);
    height: 80vh;
    background-color: var(--tenColor);
    /*background-image: url(../img/68713e23-0a36-4a48-9878-3477907c4774.jpg);
-   */background-image: url(../img/530a5623144f2f892919344d20ad7b62.jpg);
+   */
+    background-image: url(../img/sw.jpg);
+/*     background-image: url(../img/530a5623144f2f892919344d20ad7b62.jpg); */
    opacity: .7;
    /* z-index: -1; */
    background-position: top;
