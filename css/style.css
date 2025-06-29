@@ -27,15 +27,15 @@ body{
     --firstColorP: #495b75; 
     /* --secondColorG:rgb(49, 48, 48) ; */
     --secondColorG: #29394f ; 
-    --thierdColorPp: rgb(102, 55, 59);
+    --thierdColorPp: rgb(102, 55, 59) ;
 /*     --fourthColorPppp: rgb(205, 91, 101) ; #6E6062 */
 /*     --fourthColorPppp: #ccc8c9 #dabeb9; */
     --fourthColorPppp: #dabeb9;
     --fitholorPPppp: rgb(164, 102, 125);
     /*--sixthColorp: rgb(161, 140, 169); d38187*/
-    --sixthColorp: #d38187  ; 
+    --sixthColorp: #d38187 ; 
    /* --seventhColorO: rgb(253, 203, 199);  */
-    --seventhColorO: #dce2ea;
+    --seventhColorO: #e2e7ef ;
     --eightColor :rgb(61, 39, 39);
     /*--tenColor:rgb(170, 129, 137) ; */
      --tenColor:#c6a7ac ;
@@ -45,7 +45,7 @@ body{
 /*     --towelvColor:#B7B0B1 #E6D4D7 ;  #CD5B65 */
 /*     --towelvColor:#E6D4D7 #fff8f8 ; */
     /*--towelvColor:#fff8f8 ; */
---towelvColor: #c9d2e0 ;
+--towelvColor: #e2e7ef ;
 }
 
 
