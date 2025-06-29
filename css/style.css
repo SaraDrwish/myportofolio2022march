@@ -41,12 +41,13 @@ body{
     /*--tenColor:rgb(170, 129, 137) ; */
      --tenColor:#c6a7ac ;
     /* --elevenColor:rgba(241, 227, 230, 0.952) ; */
-   --elevenColor:rgba(204, 214, 229,0.8) ;
+   --elevenColor:rgba(232, 237, 244, 0.9);
 /*     --towelvColor: rgba(250, 186, 191, 0.692) #ccc8c9 ; */
 /*     --towelvColor:#B7B0B1 #E6D4D7 ;  #CD5B65 */
 /*     --towelvColor:#E6D4D7 #fff8f8 ; */
     /*--towelvColor:#fff8f8 ; */
---towelvColor: #e2e7ef ;
+/*--towelvColor: #e2e7ef ; */
+  --towelvColor:#e8edf4;
 }
 
 
@@ -634,7 +635,7 @@ color: var(--sixthColorp);
    background-color: var(--tenColor);
    /*background-image: url(../img/68713e23-0a36-4a48-9878-3477907c4774.jpg);
    */
-    background-image: url(../img/33.jpg);
+    background-image: url(../img/33.jpeg);
 /*     background-image: url(../img/530a5623144f2f892919344d20ad7b62.jpg); */
    opacity: .7;
    /* z-index: -1; */
