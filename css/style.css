@@ -39,7 +39,8 @@ body{
     --eightColor :rgb(61, 39, 39);
     /*--tenColor:rgb(170, 129, 137) ; */
      --tenColor:#c6a7ac ;
-    --elevenColor:rgba(241, 227, 230, 0.952) ;
+    /* --elevenColor:rgba(241, 227, 230, 0.952) ; */
+   --elevenColor:rgba(204, 214, 229,0.952) ;
 /*     --towelvColor: rgba(250, 186, 191, 0.692) #ccc8c9 ; */
 /*     --towelvColor:#B7B0B1 #E6D4D7 ;  #CD5B65 */
 /*     --towelvColor:#E6D4D7 #fff8f8 ; */
