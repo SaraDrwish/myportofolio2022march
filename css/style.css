@@ -25,7 +25,8 @@ body{
 /*     --firstColorP:#c8cdcc #8A787B ; */
    /* --firstColorP: #a69396 ; */
     --firstColorP: #526a8e ; 
-    --secondColorG:rgb(49, 48, 48) ;
+    /* --secondColorG:rgb(49, 48, 48) ; */
+    --secondColorG: #37475e ; 
     --thierdColorPp: rgb(102, 55, 59);
 /*     --fourthColorPppp: rgb(205, 91, 101) ; #6E6062 */
 /*     --fourthColorPppp: #ccc8c9 #dabeb9; */
@@ -33,15 +34,17 @@ body{
     --fitholorPPppp: rgb(164, 102, 125);
     /*--sixthColorp: rgb(161, 140, 169); d38187*/
     --sixthColorp: #d38187; 
-    --seventhColorO: rgb(253, 203, 199);
+   /* --seventhColorO: rgb(253, 203, 199);  */
+    --seventhColorO: #ccd6e5;
     --eightColor :rgb(61, 39, 39);
-    --tenColor:rgb(170, 129, 137) ;
+    /*--tenColor:rgb(170, 129, 137) ; */
+     --tenColor:#c6a7ac ;
     --elevenColor:rgba(241, 227, 230, 0.952) ;
 /*     --towelvColor: rgba(250, 186, 191, 0.692) #ccc8c9 ; */
 /*     --towelvColor:#B7B0B1 #E6D4D7 ;  #CD5B65 */
 /*     --towelvColor:#E6D4D7 #fff8f8 ; */
-    --towelvColor:#fff8f8 ;
-
+    /*--towelvColor:#fff8f8 ; */
+--towelvColor: #c9d2e0 ;
 }
 
 
