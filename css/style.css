@@ -17,7 +17,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 
-    background-color: rgba(247, 231, 233, 0.582);
+    /*background-color: rgba(247, 231, 233, 0.582); */
+    background-color: white ; 
+    
 }
 
 :root{
