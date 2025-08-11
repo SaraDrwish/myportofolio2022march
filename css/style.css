@@ -785,7 +785,8 @@ padding: .5em 0;
 /* ----------------------------------------------------------start footer */
 footer{
     background-color: var(--firstColorP);
-    color: var(--secondColorG);
+    /*color: var(--secondColorG);*/
+    color:var(--tenColor);
     font-size: 1em;
     padding: 1em 0 ;
     display: flex;
@@ -1091,7 +1092,8 @@ padding: 0 4%;
    -moz-border-radius: 1.2rem;
    -ms-border-radius: 1.2rem;
    -o-border-radius: 1.2rem;
-    color: var(--sixthColorp);
+   /* color: var(--sixthColorp);*/
+     color:var(--tenColor) ;
 }
 
 /* -------------------------------- */
