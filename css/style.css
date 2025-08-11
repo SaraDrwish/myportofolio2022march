@@ -231,8 +231,7 @@ nav a:hover{
 
 
 .main .mainContent h3 span{
-/* color: var(--firstColorP); */
-color: var(--fourthColorPppp);
+color: var(--firstColorP); 
 display: inline-block;
 margin-top: .1em;
 font-size: 1.4em;
@@ -785,8 +784,7 @@ padding: .5em 0;
 /* ----------------------------------------------------------start footer */
 footer{
     background-color: var(--firstColorP);
-    /*color: var(--secondColorG);*/
-    color:var(--tenColor);
+    color: var(--secondColorG);
     font-size: 1em;
     padding: 1em 0 ;
     display: flex;
