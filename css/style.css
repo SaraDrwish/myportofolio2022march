@@ -268,11 +268,7 @@ font-size: 1.4em;
        -ms-transition: all .4s ease;
        -o-transition: all .4s ease;
 }
-a{
-       display: inline-block;
-       color:var(--thierdColorPp) ;
-       font-size: 1.2em;
-}
+
 
 .main .mainContent button:hover{
     background-color:var(--firstColorP) ;
@@ -698,7 +694,15 @@ color: var(--sixthColorp);
     color: var(--fitholorPPppp);
     opacity:.9;
 }
-
+.mycv a{
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 3em 1em;
+    padding: 1.4em ;
+    background-color: var(--fitholorPPppp);
+    color: var(--elevenColor);
+}
 
 
 
