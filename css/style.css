@@ -179,7 +179,6 @@ nav a:hover{
 /* --------------------------------------------------------- ending main sec */
 
 .main{
-
     width: 100%;
     min-height: 80vh;
     padding: 8%;
@@ -269,7 +268,6 @@ font-size: 1.4em;
        -o-transition: all .4s ease;
 }
 
-
 .main .mainContent button:hover{
     background-color:var(--firstColorP) ;
     border: .1em solid var(--firstColorP);
@@ -325,7 +323,6 @@ font-size: 1.4em;
     top: 14%;
     /* background-attachment: fixed; */
 }
-
 
 /* ----------------------------------------------------------start servies */
 
@@ -387,13 +384,13 @@ font-size: 1.4em;
     -o-border-radius: 66px 9px 0 0 ;
 }
 
-.titleh2::after{
+/* .titleh2::after{
     content: "";
     position: absolute;
     bottom: 0;
     border-bottom: 3px solid var(--firstColorP);
     width: 2em;
-}
+} */
 
  .content{
     width: 86%;
